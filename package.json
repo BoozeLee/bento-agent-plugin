@@ -1,0 +1,13 @@
+{
+  "name": "@elizaos/plugin-bento",
+  "version": "0.1.0",
+  "description": "BENTO Security Layer plugin for ElizaOS AI agents",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@solana/web3.js": "^1.90.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
