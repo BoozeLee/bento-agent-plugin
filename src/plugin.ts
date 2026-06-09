@@ -1,12 +1,11 @@
-import { 
-  type Action, 
-  type Plugin,
-  type IAgentRuntime,
-  type Memory,
-  type State,
-  elizaLogger 
-} from "@elizaos/core";
-import type { Transaction, PublicKey } from "@solana/web3.js";
+import { Transaction, PublicKey } from "@solana/web3.js";
+
+type Memory = any;
+type State = any;
+type IAgentRuntime = any;
+type Action = any;
+type Plugin = any;
+const elizaLogger = console;
 
 export class BentoSecurityPlugin implements Plugin {
     private guardians: PublicKey[];
